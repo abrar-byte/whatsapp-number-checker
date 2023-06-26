@@ -26,11 +26,15 @@ Initiate login on Whatsapp:
 npm run login
 ```
 
-Run check for a Phone Number
+
+Fill in the number you want to check in the array in data/Numbers.js
 
 ```
-npm run check 919898989898
+npm run check 
 ```
+
+
+valid number will appear in data.txt
 
 ***Note*** Phone Number format is (**Country Prefix without**)(Phone Number Digits)
 

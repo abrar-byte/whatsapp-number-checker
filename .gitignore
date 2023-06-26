@@ -1,5 +1,10 @@
 # Node Modules
 node_modules/
-
 # WA-Verify Specific Ignores
 profileData/
+
+# managed by open-wa
+**.data.json
+**.node-persist**
+**_IGNORE_**
+# end managed by open-wa

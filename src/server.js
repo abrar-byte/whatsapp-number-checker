@@ -15,7 +15,7 @@ app.get("/checknumber", async (req, res) => {
 });
 
 // Check Multiple Numbers
-app.post("/checknumber", async (req, res) => {
+app.post("/checknumbers", async (req, res) => {
 	const { phoneNumbers } = req.body;
 	const result = await checkNumberBulk(phoneNumbers);
 	return res.json({ phoneNumbers, result });

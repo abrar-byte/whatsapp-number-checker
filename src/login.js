@@ -1,7 +1,6 @@
 const chalk = require("chalk");
 const log = console.log;
 const puppeteer = require("puppeteer");
-
 (async () => {
 	log(
 		chalk.blue("Opening a browser window, please scan / login on Whatsapp")
