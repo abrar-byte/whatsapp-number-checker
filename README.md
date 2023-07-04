@@ -26,15 +26,14 @@ Initiate login on Whatsapp:
 npm run login
 ```
 
-
-Fill in the number you want to check in the array in data/Numbers.js
+Convert csv to json using https://csvjson.com/csv2json, add array to variable numbers in data/Numbers.js
 
 ```
 npm run check 
 ```
 
 
-valid number will appear in data.txt
+valid number will appear in data.csv
 
 ***Note*** Phone Number format is (**Country Prefix without**)(Phone Number Digits)
 
